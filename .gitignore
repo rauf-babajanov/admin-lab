@@ -1,0 +1,7 @@
+﻿*.csv
+*.log
+*.zip
+*.vhdx
+*secret*
+*key*
+*password*
