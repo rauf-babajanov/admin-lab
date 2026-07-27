@@ -1,7 +1,11 @@
-﻿*.csv
+*.csv
 *.log
 *.zip
 *.vhdx
 *secret*
 *key*
 *password*
+CURRENT.md
+
+# Sample input for New-LabUsers.ps1 - fake data, safe to publish
+!data/users-sample.csv

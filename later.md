@@ -1,4 +1,4 @@
-﻿# Later
+# Later
 
 Ideas that aren't this session. One line each.
 
