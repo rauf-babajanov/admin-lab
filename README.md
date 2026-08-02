@@ -60,12 +60,12 @@ Admin and daily use are separated by **account tiering**, not by separate hardwa
 | 5 | OU structure, security groups, manual user creation | ✅ |
 | 6 | Scripted user provisioning from CSV | ✅ |
 | 7 | CL01 domain join | ✅ |
-| 8 | Group Policy — deployment and failure diagnosis | 🔄 |
+| 8 | Group Policy — deployment and failure diagnosis | ✅ |
 | 9 | Share and NTFS permissions | ⬜ |
 | 10 | Deliberate failure injection and diagnosis | ⬜ |
 | 11 | PowerShell inspection tooling | ⬜ |
 
-**Working today:** single-domain forest `corp.atlas.test` with AD-integrated DNS and confirmed SRV resolution. OU tree and `SG-` prefixed security groups in place. 25 user accounts provisioned from CSV by an idempotent script. Windows 11 client joined with a healthy secure channel.
+**Working today:** single-domain forest `corp.atlas.test` with AD-integrated DNS and confirmed SRV resolution. OU tree and `SG-` prefixed security groups in place. 25 user accounts provisioned from CSV by an idempotent script. Windows 11 client joined with a healthy secure channel. Session 8 Group Policy work is complete: user-side restriction with IT exemption, workstation local-admin assignment, Finance drive mapping with item-level targeting, a small security baseline, and the domain password-policy scope trap are documented in [`evidence/session-08-group-policy/`](evidence/session-08-group-policy/).
 
 ---
 
